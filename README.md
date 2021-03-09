@@ -103,7 +103,7 @@ Now, your lambda function should work without warning.
 } 
 ```
 
-# Others snippets
+# Other snippet
 
 In the same mindset, here a Twilio Lambda function to send SMS by **API Key** (client_id, client_secret) within **Basic Auth** header : https://gist.github.com/vhuynen/0681e0ca15c8142860961d3072eb616b
 
