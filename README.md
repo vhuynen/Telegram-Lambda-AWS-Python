@@ -80,26 +80,26 @@ Now, your lambda function should work without warning.
 
 ```json
 {
-   "Records":[
-      {
-         "EventSource":"aws:sns",
-         "EventVersion":"1.0",
-         "EventSubscriptionArn":"arn:aws:sns:us-west-2:307004840:IoTMailboxPLPSNSTopic:8c9b83d1-120e-4eaf-b125-825ed7f0e657",
-         "Sns":{
-            "Type":"Notification",
-            "MessageId":"ea18fd6d-33f1-553f-85f0-a5ac8a3d78f0",
-            "TopicArn":"arn:aws:sns:us-west-2:307004840:IoTMailboxPLPSNSTopic",
-            "Subject":"None",
-            "Message":"HelloWorld! Have de Nice Day!",
-            "Timestamp":"2021-03-09T17:59:40.790Z",
-            "SignatureVersion":"1",
-            "Signature":"",
-            "SigningCertUrl":"",
-            "UnsubscribeUrl":"",
-            "MessageAttributes":{
-               
-            }
-         }
-      } 
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-west-2:30700484:IoTMailboxPLPSNSTopic:8c9b83d1-120e-4eaf-b125-825ed7f0e657",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "73eb288c-5274-5e90-80ea-704d1f09b104",
+        "TopicArn": "arn:aws:sns:us-west-2:30700484:IoTMailboxPLPSNSTopic",
+        "Subject": "None",
+        "Message": "HelloWorld from SNS ! Message sent by AWS Lambda",
+        "Timestamp": "2021-03-09T10:17:33.245Z",
+        "SignatureVersion": "1",
+        "Signature": "",
+        "SigningCertUrl": "",
+        "UnsubscribeUrl": "",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+} 
 ```
 
