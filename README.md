@@ -109,4 +109,4 @@ In the same mindset, here a Twilio Lambda function to send SMS by **API Key** (c
 
 > API Keys are revokable credentials for the Twilio API. You can use API Keys to authenticate to the REST API using basic auth. And, you can use API Keys to sign Access Tokens, which are used by Twilio's Real-Time Communications SDKs. Access Tokens are short-lived credentials that can be distributed safely to client-side applications
 
-In this snippet, Basic Auth is used and not the `Client Credentials Flow` from OAuth2.0
+In this snippet, Basic Auth is used and not the `Client Credentials Flow` from OAuth 2.0
