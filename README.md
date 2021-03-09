@@ -37,7 +37,7 @@ For more information, you can read this paper about this topic : https://aws.ama
 
 # Stable version
 
-This lambda function use the strong **requests** library **urllib3**
+This lambda function use the strong **requests** library **urllib3** and Python 3.8 runtime.
 
 ```python
 import json
