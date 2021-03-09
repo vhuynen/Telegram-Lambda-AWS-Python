@@ -1,4 +1,4 @@
-# Send Telegram Message via Python Lambda AWS 
+# Send Telegram Bot with Python and AWS Lambda 
 
 This Lambda function allow to send an message through Telegram Bot API when it is triggered by Amazon SNS (Simple Notification Service).
 
