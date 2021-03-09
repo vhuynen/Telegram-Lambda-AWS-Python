@@ -12,6 +12,6 @@ def lambda_handler(event, context):
     response = requests.get(bot_request) 
     return {
         'statusCode': response.status_code,
-      'msg': json.dumps('Message send with successed !'),
+      'msg': json.dumps('Message sent with success !'),
        'body': json.dumps(response.json())
   }
