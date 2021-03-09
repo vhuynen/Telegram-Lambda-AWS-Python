@@ -103,3 +103,10 @@ Now, your lambda function should work without warning.
 } 
 ```
 
+# Others snippets
+
+In the same mindset, here a Twilio Lambda function to send SMS by **API Key** (client_id, client_secret) within **Basic Auth** header : https://gist.github.com/vhuynen/0681e0ca15c8142860961d3072eb616b
+
+> API Keys are revokable credentials for the Twilio API. You can use API Keys to authenticate to the REST API using basic auth. And, you can use API Keys to sign Access Tokens, which are used by Twilio's Real-Time Communications SDKs. Access Tokens are short-lived credentials that can be distributed safely to client-side applications
+
+In this snippet, Basic Auth is used and not the `Client Credentials Flow` from OAuth2.0
