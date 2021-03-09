@@ -76,7 +76,7 @@ To execute this function you must import yourself the requests library into your
 
 Now, your lambda function should work without warning.
 
-# Structure SNS Message
+# SNS Message structure
 
 ```json
 {
