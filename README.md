@@ -84,11 +84,11 @@ Now, your lambda function should work without warning.
     {
       "EventSource": "aws:sns",
       "EventVersion": "1.0",
-      "EventSubscriptionArn": "arn:aws:sns:us-west-2:30700484:IoTMailboxPLPSNSTopic:8c9b83d1-120e-4eaf-b125-825ed7f0e657",
+      "EventSubscriptionArn": "arn:aws:sns:us-west-2:xxxxxxx:IoTMailboxPLPSNSTopic:8c9b83d1-120e-4eaf-b125-825ed7f0e657",
       "Sns": {
         "Type": "Notification",
         "MessageId": "73eb288c-5274-5e90-80ea-704d1f09b104",
-        "TopicArn": "arn:aws:sns:us-west-2:30700484:IoTMailboxPLPSNSTopic",
+        "TopicArn": "arn:aws:sns:us-west-2:xxxxxxx:IoTMailboxPLPSNSTopic",
         "Subject": "None",
         "Message": "HelloWorld from SNS ! Message sent by AWS Lambda",
         "Timestamp": "2021-03-09T10:17:33.245Z",
